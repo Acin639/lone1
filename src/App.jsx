@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Home from "./pages/Home/Home.jsx"
-import Landing from "./pages/./pages/landing/Landing.jsx"
+import Landing from "./pages/landing/Landing.jsx"
 import Search from "./pages/search/Search.jsx"
 import Stream from "./pages/stream/Stream.jsx"
 
