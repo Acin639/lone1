@@ -1,4 +1,4 @@
-/*body,html,#root{margin:0;background:#0d0d0d;color:white;font-family:Arial}*/
+body,html,#root{margin:0;background:#0d0d0d;color:white;font-family:Arial}
 .topbar{background:#1b1b1b;padding:18px;font-size:28px;font-weight:700;text-align:center}
 .container{max-width:850px;margin:auto;padding:16px}
 .breadcrumb{color:#888;margin-bottom:16px;font-size:15px}
@@ -8,7 +8,7 @@
 .meta{color:#bbb;margin-bottom:12px}
 .overview{line-height:1.5;color:#ddd}
 .suggest-title{margin-top:30px;font-size:22px}
-.suggest-grid{margin-top:12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:14px}
+.suggest-grid{margin-top:12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,2fr));gap:14px}
 .suggest-item{background:#1a1a1a;padding:10px;border-radius:8px;text-align:center}
 .suggest-item img{width:100%;border-radius:6px}
 .s-title{margin-top:6px;font-size:14px;color:#ccc}
