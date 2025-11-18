@@ -47,8 +47,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-right">
-        <img src={search} alt="search" className='icons'/>
-        <img src={play_icon} alt="play_icon" className='icons' onClick={()=>navigate("/search")}/>
+        <img src={search} alt="search" className='icons' onClick={()=>navigate("/search")}/>
+        <img src={play_icon} alt="play_icon" className='icons' />
         <div className="navbar-profile">
         <img src={profile_img} alt="profile_img" className='profile'/>
         <img src={caret_icon} alt="caret_icon" />
