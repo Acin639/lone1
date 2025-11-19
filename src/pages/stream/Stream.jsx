@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import './Stream.css'
 const API_KEY = 'f43ec82a5f24fe6190891894b7436c7a';
 const MOVIE_ID = 843527;
 
