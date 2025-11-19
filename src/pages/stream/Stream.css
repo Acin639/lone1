@@ -1,17 +1,19 @@
-/* Reset and base styles */
+/* Base reset and layout */
 body, html, #root {
   margin: 0;
   padding: 0;
-  background: #0d0d0d;
+  background-color: #0d0d0d;
   color: #ffffff;
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Top navigation bar */
+/* Topbar */
 .topbar {
-  background: #1b1b1b;
+  background-color: #1b1b1b;
   padding: 18px;
   font-size: 28px;
   font-weight: 700;
@@ -20,18 +22,18 @@ body, html, #root {
   border-bottom: 2px solid #222;
 }
 
-/* Main container */
+/* Container */
 .container {
   max-width: 850px;
-  margin: auto;
+  margin: 0 auto;
   padding: 16px;
 }
 
-/* Breadcrumb navigation */
+/* Breadcrumb */
 .breadcrumb {
   color: #888;
-  margin-bottom: 16px;
   font-size: 15px;
+  margin-bottom: 16px;
 }
 
 /* Video section */
@@ -49,9 +51,9 @@ body, html, #root {
   background-color: #000;
 }
 
-/* Movie info card */
+/* Info card */
 .info-card {
-  background: #1a1a1a;
+  background-color: #1a1a1a;
   padding: 18px;
   border-radius: 8px;
   margin-top: 18px;
@@ -59,28 +61,36 @@ body, html, #root {
 }
 
 .title {
-  margin: 0 0 10px;
   font-size: 26px;
   font-weight: bold;
+  margin-bottom: 10px;
   color: #fff;
 }
 
 .meta {
+  font-size: 15px;
   color: #bbb;
   margin-bottom: 12px;
-  font-size: 15px;
 }
 
 .overview {
   color: #ddd;
-  line-height: 1.5;
   margin-bottom: 12px;
 }
 
-/* Suggestions section */
+/* Director and cast */
+.info-card strong {
+  color: #ccc;
+}
+
+.info-card div {
+  margin-top: 6px;
+}
+
+/* Suggestions */
 .suggest-title {
-  margin-top: 30px;
   font-size: 22px;
+  margin-top: 30px;
   color: #fff;
   border-bottom: 1px solid #333;
   padding-bottom: 8px;
@@ -94,7 +104,7 @@ body, html, #root {
 }
 
 .suggest-item {
-  background: #1a1a1a;
+  background-color: #1a1a1a;
   padding: 10px;
   border-radius: 8px;
   text-align: center;
@@ -114,5 +124,7 @@ body, html, #root {
 .s-title {
   margin-top: 6px;
   font-size: 14px;
+  color: #ccc;
+} 14px;
   color: #ccc;
     }
