@@ -24,7 +24,7 @@ const Search = () => {
         </div>
 
         <div className="right-icons">
-          <img src="/icons/search.svg" className="icon" alt="search" />
+          <img src="../../assets/arrow_left.png" className="icon" alt="search" />
           <img src="/icons/clock.svg" className="icon" alt="clock" />
         </div>
       </div>
